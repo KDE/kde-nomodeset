@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2021 Harald Sitter <sitter@kde.org>
+[Domain]
+Icon=((TBD))
+URL=https://www.kde.org
+Name=nomodeset Controller
+
+[org.kde.nomodeset.disable]
+Policy=auth_admin
+PolicyInactive=auth_admin
+Name=((TBD))
+Description=((TBD))
+
+[org.kde.nomodeset.grubcfgexists]
+Policy=yes
+PolicyInactive=auth_admin
+Name=((TBD))
+Description=((TBD))

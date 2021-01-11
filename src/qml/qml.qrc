@@ -1,0 +1,14 @@
+<!--
+    SPDX-License-Identifier: CC0-1.0
+    SPDX-FileCopyrightText: 2021 Harald Sitter <sitter@kde.org>
+-->
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>DisablePage.qml</file>
+        <file>InfoPage.qml</file>
+        <file>BusyPage.qml</file>
+        <file>DisabledPage.qml</file>
+        <file>ErrorPage.qml</file>
+    </qresource>
+</RCC>
