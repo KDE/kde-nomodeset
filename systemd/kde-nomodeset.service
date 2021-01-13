@@ -9,3 +9,8 @@ ConditionKernelCommandLine=nomodeset
 [Service]
 ExecStart=/usr/bin/kde-nomodeset
 Type=simple
+
+[Install]
+# Kind of meh but we need to start with a service that is kinda late enough to not be too early and
+# we don't have a lot of grand candidates for that :(
+WantedBy=plasma-kglobalaccel.service
