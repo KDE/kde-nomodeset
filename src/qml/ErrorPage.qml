@@ -7,20 +7,27 @@ import QtQuick.Controls 2.15 as QQC2
 import org.kde.kirigami 2.12 as Kirigami
 
 Kirigami.Page {
-    title: standardTitle()
+    title: i18nc("@title", "Unexpected Error")
 
-    ColumnLayout {
-        // TODO add a nice icon maybe? kdialog style
+
+    RowLayout {
         width: parent.width
+
+        Kirigami.Icon {
+            implicitWidth: Kirigami.Units.iconSizes.enormous
+            implicitHeight: implicitWidth
+            source: "dialog-error"
+        }
+
         QQC2.Label {
             Layout.fillWidth: true
             wrapMode: Text.Wrap
-            text: xi18nc("@info", `<para>Error! %1</para>`, AuthHelper.error)
+            text: AuthHelper.error
         }
     }
 
     footer: QQC2.DialogButtonBox {
-        standardButtons: QQC2.DialogButtonBox.Ok
-        onAccepted: Qt.quit()
+        standardButtons: QQC2.DialogButtonBox.Close
+        onRejected: Qt.quit()
     }
 }
