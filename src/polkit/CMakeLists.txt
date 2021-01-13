@@ -3,7 +3,9 @@
 
 kauth_install_actions(org.kde.nomodeset org.kde.nomodeset.actions)
 add_executable(kde-nomodeset-helper helper.cpp)
-target_link_libraries(kde-nomodeset-helper KF5::AuthCore)
+target_link_libraries(kde-nomodeset-helper
+    KF5::AuthCore
+    KF5::I18n)
 
 kauth_install_helper_files(kde-nomodeset-helper org.kde.nomodeset root)
 install(TARGETS kde-nomodeset-helper DESTINATION ${KAUTH_HELPER_INSTALL_DIR})

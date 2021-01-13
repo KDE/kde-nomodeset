@@ -38,6 +38,7 @@ public:
         qDebug() << action.isValid() << action.hasHelper() << action.helperId() << action.status();
         KAuth::ExecuteJob *job = action.execute();
         connect(job, &KJob::result, this, [job, this] {
+            qDebug() << job->error() << job->errorString() << job->errorText();
             switch (static_cast<KAuth::ActionReply::Error>(job->error())) {
             case KAuth::ActionReply::NoError:
                 m_disabled = true;
@@ -54,8 +55,7 @@ public:
                     m_error = job->errorText();
                 }
                 if (m_error.isEmpty()) {
-#warning i18nc
-                    m_error = "Unknown error occurred " + QString::number(job->error());
+                    m_error = i18nc("@info:status", "Unknown error code: %1", QString::number(job->error()));
                 }
                 Q_EMIT errorChanged();
                 break;
@@ -100,6 +100,7 @@ private:
         KAuth::ExecuteJob *job = action.execute();
         bool result = false;
         connect(job, &KJob::result, this, [job, &result] {
+            qDebug() << job->error() << job->errorString() << job->errorText();
             result = (job->error() == KAuth::ActionReply::NoError);
         });
         job->exec();
