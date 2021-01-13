@@ -9,7 +9,6 @@ import org.kde.kirigami 2.12 as Kirigami
 Kirigami.Page {
     title: i18nc("@title", "Unexpected Error")
 
-
     RowLayout {
         width: parent.width
 
@@ -28,6 +27,6 @@ Kirigami.Page {
 
     footer: QQC2.DialogButtonBox {
         standardButtons: QQC2.DialogButtonBox.Close
-        onRejected: Qt.quit()
+        onRejected: LifeTimeWrapper.quit()
     }
 }

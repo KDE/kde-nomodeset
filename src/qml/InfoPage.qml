@@ -36,6 +36,6 @@ Kirigami.Page {
 
     footer: QQC2.DialogButtonBox {
         standardButtons: QQC2.DialogButtonBox.Ok
-        onAccepted: Qt.quit()
+        onAccepted: LifeTimeWrapper.quit()
     }
 }

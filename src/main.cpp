@@ -7,6 +7,7 @@
 #include <QQmlContext>
 #include <QStandardPaths>
 #include <QFile>
+#include <QWindow>
 #include <KStatusNotifierItem>
 #include <KDeclarative/KDeclarative>
 #include <KLocalizedContext>
@@ -122,6 +123,19 @@ private:
     QString m_error;
 };
 
+// QML is fairly heavy. Only load it on demand. This class wraps an entire engine's life time allowing us
+// to throw it away from the qml side (effectively a glorified window hide).
+class LifeTimeWrapper : public QObject
+{
+    Q_OBJECT
+public:
+    using QObject::QObject;
+    Q_INVOKABLE void quit()
+    {
+        deleteLater();
+    }
+};
+
 int main(int argc, char **argv)
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
@@ -148,25 +162,31 @@ int main(int argc, char **argv)
     item.setCategory(KStatusNotifierItem::SystemServices);
     item.setStandardActionsEnabled(true);
 
-    KLocalizedContext i18nContext;
-    i18nContext.setTranslationDomain(QStringLiteral(TRANSLATION_DOMAIN));
-
-    QQmlApplicationEngine engine;
-    engine.rootContext()->setContextObject(&i18nContext);
-    #warning fixme this is a bit meh as the object disappears before the engine stops so you get cannot read warning spam on exit
-    engine.rootContext()->setContextProperty("AuthHelper", &helper);
-
-    KDeclarative::KDeclarative::setupEngine(&engine);
-
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
-    QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
-                     &app, [url](QObject *obj, const QUrl &objUrl) {
-        if (!obj && url == objUrl) {
-            QCoreApplication::exit(-1);
+    QObject::connect(&item, &KStatusNotifierItem::activateRequested, [&helper] {
+        if (!qApp->allWindows().isEmpty()) { // already open
+            const QWindowList windows = qApp->allWindows();
+            for (auto window : windows) {
+                if (window->isVisible()) {
+                    window->requestActivate();
+                }
+            }
+            return;
         }
-    }, Qt::QueuedConnection);
-    QObject::connect(&item, &KStatusNotifierItem::activateRequested, [&engine, &url] { engine.load(url); });
-    engine.load(url);
+
+        auto wrapper = new LifeTimeWrapper(&helper);
+        auto engine = new QQmlApplicationEngine(wrapper);
+
+        auto l10nContext = new KLocalizedContext(engine);
+        l10nContext->setTranslationDomain(QStringLiteral(TRANSLATION_DOMAIN));
+
+        engine->rootContext()->setContextObject(l10nContext);
+        engine->rootContext()->setContextProperty("AuthHelper", &helper);
+        engine->rootContext()->setContextProperty("LifeTimeWrapper", wrapper);
+
+        KDeclarative::KDeclarative::setupEngine(engine);
+
+        engine->load(QUrl(QStringLiteral("qrc:/main.qml")));
+    });
 
     return app.exec();
 }

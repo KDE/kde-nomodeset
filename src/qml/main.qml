@@ -7,11 +7,13 @@ import QtQuick.Controls 2.15 as QQC2
 import org.kde.kirigami 2.12 as Kirigami
 
 Kirigami.ApplicationWindow {
-    id: root
+    id: appWindow
 
     title: standardTitle()
     minimumWidth: Kirigami.Units.gridUnit * 22
     minimumHeight: Kirigami.Units.gridUnit * 22
+
+    onClosing: LifeTimeWrapper.quit()
 
     // The sub pages can't bind root title for some reason or another so we run the title through a function.
     function standardTitle() { return i18nc("@title:window", "Safe Graphics Mode") }
