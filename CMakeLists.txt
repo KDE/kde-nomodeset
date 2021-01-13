@@ -23,13 +23,8 @@ include(FeatureSummary)
 
 find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS Gui Core)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
-    CoreAddons
-    DBusAddons
     Notifications
     I18n
-    Solid
-    Service
-    KIO
     Auth
     Declarative
 )
