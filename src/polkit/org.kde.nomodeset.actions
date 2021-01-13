@@ -1,18 +1,18 @@
 # SPDX-License-Identifier: CC0-1.0
 # SPDX-FileCopyrightText: 2021 Harald Sitter <sitter@kde.org>
 [Domain]
-Icon=((TBD))
+Icon=network-card
 URL=https://www.kde.org
-Name=nomodeset Controller
+Name=Safe Graphics Mode
 
 [org.kde.nomodeset.disable]
 Policy=auth_admin
 PolicyInactive=auth_admin
-Name=((TBD))
-Description=((TBD))
+Name=Disable Safe Graphics Mode
+Description=Disable Safe Graphics Mode
 
 [org.kde.nomodeset.grubcfgexists]
 Policy=yes
 PolicyInactive=auth_admin
-Name=((TBD))
-Description=((TBD))
+Name=Safe Graphics Mode Bootloader Configuration
+Description=Safe Graphics Mode Bootloader Configuration
