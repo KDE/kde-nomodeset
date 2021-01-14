@@ -27,6 +27,8 @@ class AuthHelper : public QObject
     Q_PROPERTY(bool disabled MEMBER m_disabled NOTIFY busyChanged)
     // Last (fatal) error. Empty when no error.
     Q_PROPERTY(QString error MEMBER m_error NOTIFY errorChanged)
+    // Is system running as a live session from an ISO or the like.
+    Q_PROPERTY(bool liveSession MEMBER m_liveSession CONSTANT)
 public:
     using QObject::QObject;
 
@@ -112,6 +114,18 @@ private:
         return result;
     }
 
+    bool isLiveSession()
+    {
+        QFile cmdline("/proc/cmdline");
+        if (!cmdline.open(QFile::ReadOnly)) {
+            return false;
+        }
+        if (cmdline.readAll().contains(QByteArray("boot=casper"))) { // ubuntus
+            return true;
+        }
+        return false;
+    }
+
     void setBusy(bool busy)
     {
         if (m_busy == busy) {
@@ -125,6 +139,7 @@ private:
     bool m_disabled = false;
     bool m_busy = false;
     QString m_error;
+    bool m_liveSession = isLiveSession();
 };
 
 // QML is fairly heavy. Only load it on demand. This class wraps an entire engine's life time allowing us
