@@ -19,9 +19,13 @@
 class AuthHelper : public QObject
 {
     Q_OBJECT
+    // Does the grub config for nomodeset exist (if not disable() will not be able to do anything)
     Q_PROPERTY(bool grubCfgExists MEMBER m_grubCfgExists CONSTANT)
+    // Is a disable() call currently running
     Q_PROPERTY(bool busy MEMBER m_busy NOTIFY busyChanged)
+    // Was nomodeset disabled (via disable() call)
     Q_PROPERTY(bool disabled MEMBER m_disabled NOTIFY busyChanged)
+    // Last (fatal) error. Empty when no error.
     Q_PROPERTY(QString error MEMBER m_error NOTIFY errorChanged)
 public:
     using QObject::QObject;
