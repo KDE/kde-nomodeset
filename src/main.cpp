@@ -139,7 +139,7 @@ private:
     bool m_disabled = false;
     bool m_busy = false;
     QString m_error;
-    bool m_liveSession = isLiveSession();
+    const bool m_liveSession = isLiveSession();
 };
 
 // QML is fairly heavy. Only load it on demand. This class wraps an entire engine's life time allowing us
