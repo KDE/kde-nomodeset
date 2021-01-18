@@ -178,7 +178,7 @@ int main(int argc, char **argv)
     KStatusNotifierItem item;
     item.setIconByName("video-card-inactive");
     item.setToolTipIconByName("video-card-inactive");
-    item.setTitle(i18nc("@title systray icon name", "Safe Graphics Mode Warning"));
+    item.setTitle(i18nc("@title", "Safe Graphics Mode Warning"));
     item.setToolTipTitle(i18nc("@title systray tooltip title", "Safe Graphics Mode"));
     item.setToolTipSubTitle(i18nc("@info:tooltip",
                                   "The system currently runs in Safe Graphics Mode - graphics card and display performance may be impaired"));
