@@ -15,6 +15,7 @@
 #include <KAuthAction>
 #include <KAuthExecuteJob>
 #include <KJob>
+#include <KOSRelease>
 
 class AuthHelper : public QObject
 {
@@ -29,6 +30,8 @@ class AuthHelper : public QObject
     Q_PROPERTY(QString error MEMBER m_error NOTIFY errorChanged)
     // Is system running as a live session from an ISO or the like.
     Q_PROPERTY(bool liveSession MEMBER m_liveSession CONSTANT)
+    // True when installing the live session results in nomodeset as well (e.g. configured in grub)
+    Q_PROPERTY(bool livePersistent MEMBER m_livePersistent CONSTANT)
 public:
     using QObject::QObject;
 
@@ -140,6 +143,8 @@ private:
     bool m_busy = false;
     QString m_error;
     const bool m_liveSession = isLiveSession();
+    // make this a function should it cover more than neon at some point
+    const bool m_livePersistent = (KOSRelease().id() == QLatin1String("neon"));
 };
 
 // QML is fairly heavy. Only load it on demand. This class wraps an entire engine's life time allowing us
