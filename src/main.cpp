@@ -196,6 +196,8 @@ int main(int argc, char **argv)
             }
             return;
         }
+        // No longer needs attention but will still be active. We really want the user to fix nomodeset.
+        item.setStatus(KStatusNotifierItem::Active);
 
         auto wrapper = new LifeTimeWrapper(&helper);
         auto engine = new QQmlApplicationEngine(wrapper);
