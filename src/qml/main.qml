@@ -28,7 +28,7 @@ card. If you are unsure what to do it's probably best to ask in a support forum 
 
     pageStack.initialPage: AuthHelper.grubCfgExists ? "qrc:/DisablePage.qml" : "qrc:/InfoPage.qml"
 
-    // // Window instances aren't Items so we need a helper to do clean state management.
+    // Window instances aren't Items so we need a helper to do clean state management.
     StateGroup {
         states: [
             State {
