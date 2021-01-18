@@ -12,5 +12,6 @@ target_link_libraries(kde-nomodeset
 )
 
 install(TARGETS kde-nomodeset ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+install(FILES org.kde.nomodeset.desktop DESTINATION ${XDG_APPS_INSTALL_DIR} )
 
 add_subdirectory(polkit)

@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2021 Harald Sitter <sitter@kde.org>
+[Desktop Entry]
+Exec=kde-nomodeset
+Icon=video-card-inactive
+Type=Application
+NoDisplay=true
+Categories=Qt;KDE;System;
+
+Name=Safe Graphics Mode
