@@ -60,7 +60,13 @@ Kirigami.ScrollablePage {
             }
             QQC2.DialogButtonBox.buttonRole: QQC2.DialogButtonBox.AcceptRole
         }
-        // One would argue that enabling is the thing to do here. So there's no explicit Close button.
-        // TODO maybe have another button all the same `keep safe graphics`
+        QQC2.Button {
+            action: Kirigami.Action {
+                text: i18nc("@action:button", "Keep Safe Graphics Mode")
+                iconName: "dialog-cancel"
+                onTriggered: LifeTimeWrapper.quit()
+            }
+            QQC2.DialogButtonBox.buttonRole: QQC2.DialogButtonBox.RejectRole
+        }
     }
 }
