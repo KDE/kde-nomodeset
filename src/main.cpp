@@ -167,6 +167,7 @@ int main(int argc, char **argv)
 
     QApplication app(argc, argv);
     app.setWindowIcon(QIcon::fromTheme(QStringLiteral("video-card-inactive")));
+    app.setDesktopFileName(QStringLiteral("org.kde.nomodeset"));
 
     AuthHelper helper;
     if (helper.shouldIgnore()) {
