@@ -7,7 +7,7 @@ import QtQuick.Controls 2.15 as QQC2
 import org.kde.kirigami 2.12 as Kirigami
 
 Kirigami.ScrollablePage {
-    title: standardTitle()
+    title: appWindow.standardTitle
 
     RowLayout {
         width: parent.width
@@ -18,18 +18,29 @@ Kirigami.ScrollablePage {
             source: "video-display"
         }
 
-        QQC2.Label {
+        ColumnLayout {
             Layout.fillWidth: true
-            wrapMode: Text.Wrap
-            text: xi18nc("@info",
-                `<para>This system was installed in Safe Graphics Mode (also known as 'nomodeset'). While this mode often works even when
-                the graphics driver is malfunctioning it is also greatly impairing the ability of your graphics card to work as intended
-                because the system likely is using a very basic fallback graphics driver.</para>
-                <para>It is advised to deal with whatever is wrong with your system that you felt the need to use Safe Graphics Mode.
-                This likely means either upgrading the Linux kernel or installing a graphics driver that correctly supports the graphics
-                card.</para>
-                <para>If you are confident that you have resolved the graphics issues you can permanently enable the default graphics mode
-                again.</para>`)
+
+            QQC2.Label {
+                Layout.fillWidth: true
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                text: appWindow.preambleText
+            }
+
+            QQC2.Label {
+                Layout.fillWidth: true
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                text: appWindow.fixItText
+            }
+
+            QQC2.Label {
+                Layout.fillWidth: true
+                wrapMode: Text.Wrap
+                text: i18nc("@label",
+                    "If you are confident that you have resolved the graphics issues you can permanently enable the default graphics mode again.")
+            }
         }
     }
 

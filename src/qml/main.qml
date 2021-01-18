@@ -9,14 +9,22 @@ import org.kde.kirigami 2.12 as Kirigami
 Kirigami.ApplicationWindow {
     id: appWindow
 
-    title: standardTitle()
+    title: standardTitle
     minimumWidth: Kirigami.Units.gridUnit * 22
     minimumHeight: Kirigami.Units.gridUnit * 22
 
     onClosing: LifeTimeWrapper.quit()
 
     // The sub pages can't bind root title for some reason or another so we run the title through a function.
-    function standardTitle() { return i18nc("@title:window", "Safe Graphics Mode") }
+    property string standardTitle: i18nc("@title:window", "Safe Graphics Mode")
+    property string preambleText: i18nc("@label",
+        `This system is running in Safe Graphics Mode (also known as 'nomodeset'). While this mode often works even when
+the graphics driver is malfunctioning it is also greatly impairing the ability of your graphics card to work as intended
+because the system likely is using a very basic fallback graphics driver.`)
+    property string fixItText: i18nc("@label",
+        `It is advised to deal with whatever is wrong with your system that you felt the need to use Safe Graphics Mode.
+This likely means either upgrading the Linux kernel or installing a graphics driver that correctly supports the graphics
+card. If you are unsure what to do it's probably best to ask in a support forum for this operating system.`)
 
     pageStack.initialPage: AuthHelper.grubCfgExists ? "qrc:/DisablePage.qml" : "qrc:/InfoPage.qml"
 

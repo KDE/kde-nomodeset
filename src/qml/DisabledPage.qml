@@ -21,7 +21,7 @@ Kirigami.Page {
         QQC2.Label {
             Layout.fillWidth: true
             wrapMode: Text.Wrap
-            text: xi18nc("@info", `<para>Safe Graphics Mode has been disabled. To apply this change a system restart is required.</para>`)
+            text: xi18nc("@label", "Safe Graphics Mode has been disabled. To apply this change a system restart is required.")
         }
     }
 
