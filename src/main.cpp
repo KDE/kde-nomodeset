@@ -166,7 +166,7 @@ int main(int argc, char **argv)
     QGuiApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
 
     QApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme(QStringLiteral("network-card")));
+    app.setWindowIcon(QIcon::fromTheme(QStringLiteral("video-card-inactive")));
 
     AuthHelper helper;
     if (helper.shouldIgnore()) {
@@ -176,8 +176,8 @@ int main(int argc, char **argv)
     }
 
     KStatusNotifierItem item;
-    item.setIconByName("network-card");
-    item.setToolTipIconByName("network-card");
+    item.setIconByName("video-card-inactive");
+    item.setToolTipIconByName("video-card-inactive");
     item.setTitle(i18nc("@title systray icon name", "Safe Graphics Mode Warning"));
     item.setToolTipTitle(i18nc("@title systray tooltip title", "Safe Graphics Mode"));
     item.setToolTipSubTitle(i18nc("@info:tooltip",
@@ -186,7 +186,7 @@ int main(int argc, char **argv)
     item.setCategory(KStatusNotifierItem::SystemServices);
     item.setStandardActionsEnabled(true);
 
-    QObject::connect(&item, &KStatusNotifierItem::activateRequested, [&helper] {
+    QObject::connect(&item, &KStatusNotifierItem::activateRequested, [&item, &helper] {
         if (!qApp->allWindows().isEmpty()) { // already open
             const QWindowList windows = qApp->allWindows();
             for (auto window : windows) {
