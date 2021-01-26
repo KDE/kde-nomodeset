@@ -8,3 +8,9 @@ NoDisplay=true
 Categories=Qt;KDE;System;
 
 Name=Safe Graphics Mode
+Name[ca]=Mode de gràfics segurs
+Name[ca@valencia]=Mode de gràfics segurs
+Name[es]=Modo gráfico seguro
+Name[nl]=Veilige grafische modus
+Name[uk]=Безпечний графічний режим
+Name[x-test]=xxSafe Graphics Modexx
