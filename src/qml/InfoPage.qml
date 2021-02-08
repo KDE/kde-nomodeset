@@ -39,9 +39,7 @@ Kirigami.Page {
                         // Be a bit more helpful for live sessions. The user is trying to use a distro but its not working
                         // without nomodeset but the user might not understand why that is.
                         return xi18nc("@label",
-                           `If regular graphics mode is not working on this system you'll need to figure out what's wrong or ask for help in
-a support forum for this operating system. Whatever is wrong needs to be resolved on the installed system before
-it can perform properly.`)
+                           "If regular graphics mode is not working on this system you'll need to figure out what's wrong or ask for help in a support forum for this operating system. Whatever is wrong needs to be resolved on the installed system before it can perform properly.")
                     }
                     return appWindow.fixItText
                 }
