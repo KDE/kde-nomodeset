@@ -25,6 +25,7 @@ Name[sl]=Varni grafični način
 Name[sv]=Säkert grafikläge
 Name[uk]=Безпечний графічний режим
 Name[x-test]=xxSafe Graphics Modexx
+Name[zh_CN]=安全图形模式
 
 [org.kde.nomodeset.disable]
 Policy=auth_admin
@@ -51,6 +52,7 @@ Name[sl]=Onemogoči varni grafični način
 Name[sv]=Inaktivera säkert grafikläge
 Name[uk]=Вимкнути безпечний графічний режим
 Name[x-test]=xxDisable Safe Graphics Modexx
+Name[zh_CN]=禁用安全图形模式
 Description=Disable Safe Graphics Mode
 Description[ca]=Inhabilita el mode de gràfics segurs
 Description[ca@valencia]=Inhabilita el mode de gràfics segurs
@@ -73,6 +75,7 @@ Description[sl]=Onemogoči varni grafični način
 Description[sv]=Inaktivera säkert grafikläge
 Description[uk]=Вимкнути безпечний графічний режим
 Description[x-test]=xxDisable Safe Graphics Modexx
+Description[zh_CN]=禁用安全图形模式
 
 [org.kde.nomodeset.grubcfgexists]
 Policy=yes
@@ -99,6 +102,7 @@ Name[sl]=Nastavitve varnega grafičnega načina zagonskega nalagalnika
 Name[sv]=Inställning av säkert grafikläge för startprogram
 Name[uk]=Налаштування завантажувача на безпечний графічний режим
 Name[x-test]=xxSafe Graphics Mode Bootloader Configurationxx
+Name[zh_CN]=安全图形模式引导器配置
 Description=Safe Graphics Mode Bootloader Configuration
 Description[ca]=Configuració del gestor d'arrencada per al mode de gràfics segurs
 Description[ca@valencia]=Configuració del gestor d'arrencada per al mode de gràfics segurs
@@ -121,3 +125,4 @@ Description[sl]=Nastavitve varnega grafičnega načina zagonskega nalagalnika
 Description[sv]=Inställning av säkert grafikläge för startprogram
 Description[uk]=Налаштування завантажувача на безпечний графічний режим
 Description[x-test]=xxSafe Graphics Mode Bootloader Configurationxx
+Description[zh_CN]=安全图形模式引导器配置
