@@ -1,0 +1,180 @@
+# Translation for kde-nomodeset.po to Euskara/Basque (eu).
+# Copyright (C) 2021, This file is copyright:
+# This file is distributed under the same license as the kde-nomodeset package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kde-nomodeset\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-02-09 03:14+0100\n"
+"PO-Revision-Date: 2021-08-03 15:00+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.04.3\n"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error code: %1"
+msgstr "Errore-kode ezezaguna: %1"
+
+#: main.cpp:182
+#, kde-format
+msgctxt "@title"
+msgid "Safe Graphics Mode Warning"
+msgstr "Modu grafiko seguruaren abisua"
+
+#: main.cpp:183
+#, kde-format
+msgctxt "@title systray tooltip title"
+msgid "Safe Graphics Mode"
+msgstr "Modu grafiko segurua"
+
+#: main.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The system currently runs in Safe Graphics Mode - graphics card and display "
+"performance may be impaired"
+msgstr ""
+"Sistema une honetan Modu grafiko seguruan dabil - txartel grafikoa eta "
+"pantailako errendimendua gutxiagotu daitezke"
+
+#: polkit/helper.cpp:20
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Configuration file <filename>%1</filename> not found."
+msgstr "Ez du aurkitu konfiguratzeko <filename>%1</filename> fitxategia."
+
+#: polkit/helper.cpp:25
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Deleting the configuration file <filename>%1</filename> failed."
+msgstr ""
+"Konfiguratzeko <filename>%1</filename> fitxategia ezabatzea huts egin du."
+
+#: polkit/helper.cpp:33
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration timed out."
+msgstr ""
+"Abio-zamatzailearen konfigurazioa eguneratzeko denbora-muga gainditu du."
+
+#: polkit/helper.cpp:39
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration failed - exit code: %1"
+msgstr ""
+"Abio-zamatzailearen konfigurazioa eguneratzea huts egin du - irteera-kodea: "
+"%1"
+
+#: qml/BusyPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Disabling..."
+msgstr "Ezgaitzen..."
+
+#: qml/DisabledPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Restart Required"
+msgstr "Berrabiarazi behar da"
+
+#: qml/DisabledPage.qml:24
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"Safe Graphics Mode has been disabled. To apply this change a system restart "
+"is required."
+msgstr ""
+"Modu grafiko segurua ezgaitu da. Aldaketa hau erabiltzeko sistema "
+"berrabiarazi behar da."
+
+#: qml/DisablePage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid ""
+"If you are confident that you have resolved the graphics issues you can "
+"permanently enable the default graphics mode again."
+msgstr ""
+"Arazo grafikoak konpondu dituzula ziur bazaude, modu grafiko lehenetsia "
+"behin betiko gaitu dezakezu."
+
+#: qml/DisablePage.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable Default Graphics Mode"
+msgstr "Gaitu Modu grafiko lehenetsia"
+
+#: qml/DisablePage.qml:65
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Safe Graphics Mode"
+msgstr "Mantendu Modu grafiko lehenetsia"
+
+#: qml/ErrorPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Unexpected Error"
+msgstr "Ustekabeko errorea"
+
+#: qml/InfoPage.qml:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"If regular graphics mode is not working on this system you'll need to figure "
+"out what's wrong or ask for help in a support forum for this operating "
+"system. Whatever is wrong needs to be resolved on the installed system "
+"before it can perform properly."
+msgstr ""
+"Sistema honetan modu grafiko arrunta ez badabil, gaizki zer dagoen aurkitu "
+"edo sistema eragile honetarako euskarri foroetan laguntza eskatu beharko "
+"duzu. Gaizki dagoena konpondu egin behar da, instalatuta dagoen sisteman, "
+"modu egokian ibil dadin."
+
+#: qml/main.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Safe Graphics Mode"
+msgstr "Modu grafiko segurua"
+
+#: qml/main.qml:20
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This system is running in Safe Graphics Mode (also known as 'nomodeset'). "
+"While this mode often works even when the graphics driver is malfunctioning "
+"it is also greatly impairing the ability of your graphics card to work as "
+"intended because the system likely is using a very basic fallback graphics "
+"driver."
+msgstr ""
+"Sistema hau Modu grafiko seguruan («nomodeset» gisa ere ezaguna) ibiltzen "
+"ari da. Modu hau grafikoen gidaria gaizki dabilenean ere ondo ibili ohi den "
+"arren, zure txartel grafikoa bere gaitasunak oso urrituta ibiltzea eragiten "
+"du, sistema, segur aski, erreserbako grafiko gidari oso oinarrizkoa "
+"erabiltzen ari delako."
+
+#: qml/main.qml:22
+#, kde-format
+msgctxt "@label"
+msgid ""
+"It is advised to deal with whatever is wrong with your system that you felt "
+"the need to use Safe Graphics Mode. This likely means either upgrading the "
+"Linux kernel or installing a graphics driver that correctly supports the "
+"graphics card. If you are unsure what to do it's probably best to ask in a "
+"support forum for this operating system."
+msgstr ""
+"Zure sisteman gaizki dagoen, Modu grafiko segurua erabiltzeko erabakia "
+"hartzera bultzatu zaituen horri aurre egitea gomendatzen dizugu. Horrek, "
+"seguruenik, Linuxen muina bertsio-berritzea edo txartel grafikoak behar duen "
+"bezalako euskarria ematen dion grafikoen gidaria instalatzea esan nahi du. "
+"Zer egin ez badakizu, onena, zure sistema eragilerako euskarri foro batean "
+"galdetzea izango da."

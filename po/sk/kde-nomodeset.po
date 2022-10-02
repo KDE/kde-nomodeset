@@ -1,0 +1,174 @@
+# translation of kde-nomodeset.po to Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2021.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kde-nomodeset\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-02-09 03:14+0100\n"
+"PO-Revision-Date: 2021-03-14 12:48+0100\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 20.12.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error code: %1"
+msgstr "Neznámy kód chyby: %1"
+
+#: main.cpp:182
+#, kde-format
+msgctxt "@title"
+msgid "Safe Graphics Mode Warning"
+msgstr "Upozornenie na Bezpečný grafický režim"
+
+#: main.cpp:183
+#, kde-format
+msgctxt "@title systray tooltip title"
+msgid "Safe Graphics Mode"
+msgstr "Bezpečný grafický režim"
+
+#: main.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The system currently runs in Safe Graphics Mode - graphics card and display "
+"performance may be impaired"
+msgstr ""
+"Systém momentálne pracuje v bezpečnom grafickom režime - výkon grafickej "
+"karty a displeja môže byť znížený"
+
+#: polkit/helper.cpp:20
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Configuration file <filename>%1</filename> not found."
+msgstr "Konfiguračný súbor <filename>%1</filename> sa nenašiel."
+
+#: polkit/helper.cpp:25
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Deleting the configuration file <filename>%1</filename> failed."
+msgstr "Odstránenie konfiguračného súboru <filename>%1</filename> zlyhalo."
+
+#: polkit/helper.cpp:33
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration timed out."
+msgstr "Čas vypršal pre aktualizáciu konfigurácie bootloaderu."
+
+#: polkit/helper.cpp:39
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration failed - exit code: %1"
+msgstr "Aktualizácia konfigurácie bootloadera zlyhala - chybový kód: %1"
+
+#: qml/BusyPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Disabling..."
+msgstr "Zakazuje sa..."
+
+#: qml/DisabledPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Restart Required"
+msgstr "Vyžaduje sa reštart"
+
+#: qml/DisabledPage.qml:24
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"Safe Graphics Mode has been disabled. To apply this change a system restart "
+"is required."
+msgstr ""
+"Režim bezpečnej grafiky bol zakázaný. Na uplatnenie tejto zmeny je potrebný "
+"reštart systému."
+
+#: qml/DisablePage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid ""
+"If you are confident that you have resolved the graphics issues you can "
+"permanently enable the default graphics mode again."
+msgstr ""
+"Ak ste si istí, že ste vyriešili grafické problémy, môžete znova natrvalo "
+"povoliť predvolený grafický režim."
+
+#: qml/DisablePage.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable Default Graphics Mode"
+msgstr "Povoliť predvolený grafický režim"
+
+#: qml/DisablePage.qml:65
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Safe Graphics Mode"
+msgstr "Ponechať bezpečný grafický režim"
+
+#: qml/ErrorPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Unexpected Error"
+msgstr "Neočakávaná chyba"
+
+#: qml/InfoPage.qml:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"If regular graphics mode is not working on this system you'll need to figure "
+"out what's wrong or ask for help in a support forum for this operating "
+"system. Whatever is wrong needs to be resolved on the installed system "
+"before it can perform properly."
+msgstr ""
+"Ak v tomto systéme nefunguje bežný grafický režim, budete musieť zistiť, čo "
+"nefunguje, alebo požiadať o pomoc vo fóre podpory pre tento operačný systém. "
+"Čokoľvek čo nefunguje, je potrebné vyriešiť v nainštalovanom systéme, aby "
+"mohol správne fungovať."
+
+#: qml/main.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Safe Graphics Mode"
+msgstr "Bezpečný grafický režim"
+
+#: qml/main.qml:20
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This system is running in Safe Graphics Mode (also known as 'nomodeset'). "
+"While this mode often works even when the graphics driver is malfunctioning "
+"it is also greatly impairing the ability of your graphics card to work as "
+"intended because the system likely is using a very basic fallback graphics "
+"driver."
+msgstr ""
+"Tento systém beží v bezpečnom grafickom režime (tiež známy ako „nomodeset“). "
+"Aj keď tento režim často funguje, aj keď grafický ovládač nefunguje správne, "
+"výrazne to zhoršuje schopnosť grafickej karty pracovať podľa plánu, pretože "
+"systém pravdepodobne používa veľmi jednoduchý záložný grafický ovládač."
+
+#: qml/main.qml:22
+#, kde-format
+msgctxt "@label"
+msgid ""
+"It is advised to deal with whatever is wrong with your system that you felt "
+"the need to use Safe Graphics Mode. This likely means either upgrading the "
+"Linux kernel or installing a graphics driver that correctly supports the "
+"graphics card. If you are unsure what to do it's probably best to ask in a "
+"support forum for this operating system."
+msgstr ""
+"Odporúča sa vyriešiť všetko, čo nie je v poriadku s vašim systémom, a preto "
+"ste cítili potrebu používať bezpečný grafický režim. To pravdepodobne "
+"znamená buď aktualizáciu jadra systému Linux, alebo inštaláciu grafického "
+"ovládača, ktorý správne podporuje grafickú kartu. Ak si nie ste istí, čo "
+"máte robiť, je najlepšie sa opýtať na fóre podpory pre tento operačný systém."
+
+#~ msgctxt "@label"
+#~ msgid "qrc:/DisablePage.qml"
+#~ msgstr "qrc:/DisablePage.qml"

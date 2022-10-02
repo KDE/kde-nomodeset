@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kde-nomodeset package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kde-nomodeset\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-02-09 03:14+0100\n"
+"PO-Revision-Date: 2022-05-23 06:25+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error code: %1"
+msgstr "შეცდომის უცნობი კოდი: %1"
+
+#: main.cpp:182
+#, kde-format
+msgctxt "@title"
+msgid "Safe Graphics Mode Warning"
+msgstr "უსაფრთხო გრაფიკის რეჟიმის გაფრთხილების დაყენება"
+
+#: main.cpp:183
+#, kde-format
+msgctxt "@title systray tooltip title"
+msgid "Safe Graphics Mode"
+msgstr "უსაფრთხო გრაფიკის რეჟიმი"
+
+#: main.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The system currently runs in Safe Graphics Mode - graphics card and display "
+"performance may be impaired"
+msgstr ""
+"სისტემა ამჟამად გაშვებულია უსაფრთხო გრაფიკის რეჟიმში - გრაფიკული ბარათისა და "
+"ეკრანის წარმადობა საგრძნობლად დაეცემა"
+
+#: polkit/helper.cpp:20
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Configuration file <filename>%1</filename> not found."
+msgstr "კონფიგურაციის ფაილი <filename>%1</filename> არ არსებობს."
+
+#: polkit/helper.cpp:25
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Deleting the configuration file <filename>%1</filename> failed."
+msgstr "კონფიგურაციის ფაილის:<filename>%1</filename> წაშლის შეცდომა."
+
+#: polkit/helper.cpp:33
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration timed out."
+msgstr "სისტემის ჩამტვირთავის კონფიგურაციის განახლების ვადა გავდა."
+
+#: polkit/helper.cpp:39
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration failed - exit code: %1"
+msgstr "სისტემის ჩამტვირთავის კონფიგურაციის განახლების შეცდომა - კოდი: %1"
+
+#: qml/BusyPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Disabling..."
+msgstr "გათიშვა..."
+
+#: qml/DisabledPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Restart Required"
+msgstr "საჭიროა სისტემის გადატვირთვა"
+
+#: qml/DisabledPage.qml:24
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"Safe Graphics Mode has been disabled. To apply this change a system restart "
+"is required."
+msgstr ""
+"უსაფრთხო გრაფიკის რეჟიმი გათიშულია. ცვლილების გადასატარებლად სისტემის "
+"გადატვირთვაა საჭირო."
+
+#: qml/DisablePage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid ""
+"If you are confident that you have resolved the graphics issues you can "
+"permanently enable the default graphics mode again."
+msgstr ""
+"თუ დარწმუნებული ხართ, რომ გადაწყვიტეთ გრაფიკის პრობლემები, შეგიძლიათ "
+"მუდმივად ჩართოთ ნაგულისხმები გრაფიკის რეჟიმი."
+
+#: qml/DisablePage.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable Default Graphics Mode"
+msgstr "გრაფიკის ნაგულისხმები რეჟიმის ჩართვა"
+
+#: qml/DisablePage.qml:65
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Safe Graphics Mode"
+msgstr "უსაფრთხო გრაფიკის რეჟიმის დატოვება"
+
+#: qml/ErrorPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Unexpected Error"
+msgstr "გაუთვალისწინებელი შეცდომა"
+
+#: qml/InfoPage.qml:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"If regular graphics mode is not working on this system you'll need to figure "
+"out what's wrong or ask for help in a support forum for this operating "
+"system. Whatever is wrong needs to be resolved on the installed system "
+"before it can perform properly."
+msgstr ""
+"თუ ამ სისტემაზე ჩვეულებრივი გრაფიკის რეჟიმი არ მუშაობს, უნდა გაარკვიოთ, რა "
+"არის არასწორი, ან მოითხოვოთ დახმარება ამ ოპერაციული სისტემის მხარდაჭერის "
+"ფორუმზე. რა შეცდომაც არ უნდა იყოს, მისი გადაწყვეტა მანამდეა საჭირო, სანამ ის "
+"ნორმალურად არ შეასრულებს თავის საქმეს."
+
+#: qml/main.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Safe Graphics Mode"
+msgstr "უსაფრთხო გრაფიკის რეჟიმი"
+
+#: qml/main.qml:20
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This system is running in Safe Graphics Mode (also known as 'nomodeset'). "
+"While this mode often works even when the graphics driver is malfunctioning "
+"it is also greatly impairing the ability of your graphics card to work as "
+"intended because the system likely is using a very basic fallback graphics "
+"driver."
+msgstr ""
+"სისტემა გაშვებულია უსაფრთხო გრაფიკის რეჟიმში (ასევე ცნობილია, როგორც "
+"\"nomodeset\"). ეს რეჟიმი როგორც წესი მაშინაც კი მუშაობს, როცა ვიდეო ბარათის "
+"დრაივერი გაფუჭებულია."
+
+#: qml/main.qml:22
+#, kde-format
+msgctxt "@label"
+msgid ""
+"It is advised to deal with whatever is wrong with your system that you felt "
+"the need to use Safe Graphics Mode. This likely means either upgrading the "
+"Linux kernel or installing a graphics driver that correctly supports the "
+"graphics card. If you are unsure what to do it's probably best to ask in a "
+"support forum for this operating system."
+msgstr ""

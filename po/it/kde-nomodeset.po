@@ -1,0 +1,178 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kde-nomodeset package.
+# Vincenzo Reale <smart2128vr@gmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kde-nomodeset\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-02-09 03:14+0100\n"
+"PO-Revision-Date: 2021-04-07 11:14+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 20.12.3\n"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error code: %1"
+msgstr "Codice di errore sconosciuto: %1"
+
+#: main.cpp:182
+#, kde-format
+msgctxt "@title"
+msgid "Safe Graphics Mode Warning"
+msgstr "Avviso modalità grafica sicura"
+
+#: main.cpp:183
+#, kde-format
+msgctxt "@title systray tooltip title"
+msgid "Safe Graphics Mode"
+msgstr "Modalità grafica sicura"
+
+#: main.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The system currently runs in Safe Graphics Mode - graphics card and display "
+"performance may be impaired"
+msgstr ""
+"Il sistema attualmente funziona in modalità grafica sicura - la scheda "
+"grafica e le prestazioni dello schermo potrebbero essere compromesse"
+
+#: polkit/helper.cpp:20
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Configuration file <filename>%1</filename> not found."
+msgstr "File di configurazione <filename>%1</filename> non trovato."
+
+#: polkit/helper.cpp:25
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Deleting the configuration file <filename>%1</filename> failed."
+msgstr ""
+"L'eliminazione del file di configurazione <filename>%1</filename> non è "
+"riuscita."
+
+#: polkit/helper.cpp:33
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration timed out."
+msgstr ""
+"Aggiornamento del file di configurazione del bootloader fuori tempo massimo."
+
+#: polkit/helper.cpp:39
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration failed - exit code: %1"
+msgstr ""
+"Aggiornamento del file di configurazione del bootloader non riuscito - "
+"codice di uscita: %1"
+
+#: qml/BusyPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Disabling..."
+msgstr "Disabilitazione in corso..."
+
+#: qml/DisabledPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Restart Required"
+msgstr "Riavvio richiesto"
+
+#: qml/DisabledPage.qml:24
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"Safe Graphics Mode has been disabled. To apply this change a system restart "
+"is required."
+msgstr ""
+"La modalità grafica sicura è stata disabilitata. Per applicare questa "
+"modifica è necessario riavviare il sistema."
+
+#: qml/DisablePage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid ""
+"If you are confident that you have resolved the graphics issues you can "
+"permanently enable the default graphics mode again."
+msgstr ""
+"Se sei sicuro di aver risolto i problemi grafici, puoi abilitare di nuovo in "
+"modo permanente la modalità grafica predefinita."
+
+#: qml/DisablePage.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable Default Graphics Mode"
+msgstr "Abilita la modalità grafica predefinita"
+
+#: qml/DisablePage.qml:65
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Safe Graphics Mode"
+msgstr "Mantieni la modalità grafica sicura"
+
+#: qml/ErrorPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Unexpected Error"
+msgstr "Errore inatteso"
+
+#: qml/InfoPage.qml:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"If regular graphics mode is not working on this system you'll need to figure "
+"out what's wrong or ask for help in a support forum for this operating "
+"system. Whatever is wrong needs to be resolved on the installed system "
+"before it can perform properly."
+msgstr ""
+"Se la modalità grafica normale non funziona su questo sistema, dovrai capire "
+"cosa c'è che non va o chiedere aiuto in un forum di supporto per questo "
+"sistema operativo. Qualunque cosa sia sbagliata deve essere risolta sul "
+"sistema installato prima che possa funzionare correttamente."
+
+#: qml/main.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Safe Graphics Mode"
+msgstr "Modalità grafica sicura"
+
+#: qml/main.qml:20
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This system is running in Safe Graphics Mode (also known as 'nomodeset'). "
+"While this mode often works even when the graphics driver is malfunctioning "
+"it is also greatly impairing the ability of your graphics card to work as "
+"intended because the system likely is using a very basic fallback graphics "
+"driver."
+msgstr ""
+"Questo sistema è in esecuzione in modalità grafica provvisoria (nota anche "
+"come «nomodeset»). Sebbene questa modalità funzioni spesso anche quando il "
+"driver grafico non funziona correttamente, compromette notevolmente anche la "
+"capacità della scheda grafica di funzionare come previsto perché il sistema "
+"probabilmente utilizza un driver grafico di riserva molto semplice."
+
+#: qml/main.qml:22
+#, kde-format
+msgctxt "@label"
+msgid ""
+"It is advised to deal with whatever is wrong with your system that you felt "
+"the need to use Safe Graphics Mode. This likely means either upgrading the "
+"Linux kernel or installing a graphics driver that correctly supports the "
+"graphics card. If you are unsure what to do it's probably best to ask in a "
+"support forum for this operating system."
+msgstr ""
+"Ti consigliamo di occuparti di qualsiasi problema nel sistema che ti ha "
+"spinto a utilizzare la modalità grafica sicura. Questo probabilmente "
+"significa aggiornare il kernel Linux o installare un driver grafico che "
+"supporti correttamente la scheda grafica. Se non sei sicuro di cosa fare, "
+"probabilmente è meglio chiedere in un forum di supporto per questo sistema "
+"operativo."

@@ -1,0 +1,178 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kde-nomodeset package.
+#
+# Stelios <sstavra@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kde-nomodeset\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-02-09 03:14+0100\n"
+"PO-Revision-Date: 2021-06-13 14:57+0300\n"
+"Last-Translator: Stelios <sstavra@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.04.2\n"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error code: %1"
+msgstr "Άγνωστος κωδικός σφάλματος: %1"
+
+#: main.cpp:182
+#, kde-format
+msgctxt "@title"
+msgid "Safe Graphics Mode Warning"
+msgstr "Προειδοποίηση ασφαλούς λειτουργίας γραφικών"
+
+#: main.cpp:183
+#, kde-format
+msgctxt "@title systray tooltip title"
+msgid "Safe Graphics Mode"
+msgstr "Ασφαλής λειτουργία γραφικών"
+
+#: main.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The system currently runs in Safe Graphics Mode - graphics card and display "
+"performance may be impaired"
+msgstr ""
+"Το σύστημα τώρα εκτελείται σε ασφαλή λειτουργία γραφικών - η κάρτα γραφικών "
+"και η απόδοση της οθόνης ίσως επηρςαστούν"
+
+#: polkit/helper.cpp:20
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Configuration file <filename>%1</filename> not found."
+msgstr "Αδυναμία εύρεσης του αρχείου διαμόρφωσης <filename>%1</filename>."
+
+#: polkit/helper.cpp:25
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Deleting the configuration file <filename>%1</filename> failed."
+msgstr "Αποτυχία διαγραφής του αρχείου διαμόρφωσης <filename>%1</filename>."
+
+#: polkit/helper.cpp:33
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration timed out."
+msgstr ""
+"Το χρονικό όριο για την ενημέρωση της διαμόρφωσης του φορτωτή εκκίνησης "
+"εξαντλήθηκε."
+
+#: polkit/helper.cpp:39
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration failed - exit code: %1"
+msgstr ""
+"Αποτυχία ενημέρωσης της διαμόρφωσης του φορτωτή εκκίνησης - κωδικός "
+"τερματισμού: %1"
+
+#: qml/BusyPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Disabling..."
+msgstr "Απενεργοποίηση..."
+
+#: qml/DisabledPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Restart Required"
+msgstr "Απαιτείται επανεκκίνηση"
+
+#: qml/DisabledPage.qml:24
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"Safe Graphics Mode has been disabled. To apply this change a system restart "
+"is required."
+msgstr ""
+"Η ασφαλής λειτουργία γραφικών έχει απενεργοποιηθεί. Για να εφαρμοστεί αυτή η "
+"αλλαγή απαιτείται επανεκκίνηση του συστήματος."
+
+#: qml/DisablePage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid ""
+"If you are confident that you have resolved the graphics issues you can "
+"permanently enable the default graphics mode again."
+msgstr ""
+"Αν είστε βέβαιοι ότι έχετε επιλύσει τα θέματα με τα γραφικά μπορείτε να "
+"ενεργοποιήσετε μόνιμα την προκαθορισμένη λειτουργία γραφικών."
+
+#: qml/DisablePage.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable Default Graphics Mode"
+msgstr "Ενεργοποίηση προκαθορισμένης λειτουργίας γραφικών"
+
+#: qml/DisablePage.qml:65
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Safe Graphics Mode"
+msgstr "Διατήρηση ασφαλούς λειτουργίας γραφικών"
+
+#: qml/ErrorPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Unexpected Error"
+msgstr "Απρόσμενο σφάλμα"
+
+#: qml/InfoPage.qml:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"If regular graphics mode is not working on this system you'll need to figure "
+"out what's wrong or ask for help in a support forum for this operating "
+"system. Whatever is wrong needs to be resolved on the installed system "
+"before it can perform properly."
+msgstr ""
+"Αν η κανονική λειτουργία γραφικών έχει πρόβλημα σε αυτό το σύστημα θα "
+"χρειαστεί να βρείτε ποιο είναι το πρόβλημα ή να αναζητήσετε βοήθεια σε ένα "
+"φόρουμ υποστήριξης για το συγκεκριμένο λειτουργικό σύστημα. Όποιο και αν "
+"είναι το πρόβλημα πρέπει να επιλυθει στο εγκατεστημένο σύστημα για να "
+"λειτουργήσει σωστά."
+
+#: qml/main.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Safe Graphics Mode"
+msgstr "Ασφαλής λειτουργία γραφικών"
+
+#: qml/main.qml:20
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This system is running in Safe Graphics Mode (also known as 'nomodeset'). "
+"While this mode often works even when the graphics driver is malfunctioning "
+"it is also greatly impairing the ability of your graphics card to work as "
+"intended because the system likely is using a very basic fallback graphics "
+"driver."
+msgstr ""
+"Το σύστημα αυτό εκτελείται σε ασφαλή λειτουργία γραφικών (επίσης γνωστή ως "
+"'nomodeset'). Ενώ η λειτουργία αυτή συχνά δεν έχει πρόβλημα ακόμη και αν ο "
+"οδηγός γραφικών δεν λειτουργεί σωστά, επηρεάζει όμως αρνητικά τη λειτουργία "
+"της κάρτας γραφικών αφού το σύστημα πιθανόν να χρησιμοποιεί έναν "
+"απλουστευμένο εναλλακτικό οδηγό γραφικών."
+
+#: qml/main.qml:22
+#, kde-format
+msgctxt "@label"
+msgid ""
+"It is advised to deal with whatever is wrong with your system that you felt "
+"the need to use Safe Graphics Mode. This likely means either upgrading the "
+"Linux kernel or installing a graphics driver that correctly supports the "
+"graphics card. If you are unsure what to do it's probably best to ask in a "
+"support forum for this operating system."
+msgstr ""
+"Συνιστάται η αντιμετώπιση των προβλημάτων του συστήματος που σας ανάγκασαν "
+"να καταφύγετε στην ασφαλή λειτουργία γραφικών. Αυτό μάλλον σημαίνει ότι "
+"απαιτείται η αναβάθμιση του πυρήνα Linux ή η εγκατάσταση ενός οδηγού ο "
+"οποίος να υποστηρίζει σωστά την κάρτα φραφικών. Αν δεν είστε βέβαιοι το "
+"καλύτερο είναι να ρωτήσετε σε ένα φόρουμ υποστήριξης για αυτό το λειτουργικό "
+"σύστημα."

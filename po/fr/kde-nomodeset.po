@@ -1,0 +1,178 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kde-nomodeset\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-02-09 03:14+0100\n"
+"PO-Revision-Date: 2021-02-20 12:20+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.12.2\n"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error code: %1"
+msgstr "Code d'erreur inconnue : %1"
+
+#: main.cpp:182
+#, kde-format
+msgctxt "@title"
+msgid "Safe Graphics Mode Warning"
+msgstr "Alarme du mode graphique de sécurité"
+
+#: main.cpp:183
+#, kde-format
+msgctxt "@title systray tooltip title"
+msgid "Safe Graphics Mode"
+msgstr "Mode graphique de sécurité"
+
+#: main.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The system currently runs in Safe Graphics Mode - graphics card and display "
+"performance may be impaired"
+msgstr ""
+"Le système s'exécute actuellement en mode graphique de sécurité. La carte "
+"graphique et les performances d'affichage pourrait être réduite."
+
+#: polkit/helper.cpp:20
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Configuration file <filename>%1</filename> not found."
+msgstr ""
+"Impossible de trouver le ficher de configuration <filename>%1</filename>."
+
+#: polkit/helper.cpp:25
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Deleting the configuration file <filename>%1</filename> failed."
+msgstr ""
+"Échec de la suppression du fichier de configuration <filename>%1</filename>."
+
+#: polkit/helper.cpp:33
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration timed out."
+msgstr ""
+"La mise à jour de la configuration du chargeur de démarrage n'a pas été "
+"réalisée dans le temps imparti."
+
+#: polkit/helper.cpp:39
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration failed - exit code: %1"
+msgstr ""
+"Échec de la mise à jour de la configuration du chargeur de démarrage. Code "
+"de sortie : %1."
+
+#: qml/BusyPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Disabling..."
+msgstr "Désactivation en cours..."
+
+#: qml/DisabledPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Restart Required"
+msgstr "Un redémarrage est nécessaire"
+
+#: qml/DisabledPage.qml:24
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"Safe Graphics Mode has been disabled. To apply this change a system restart "
+"is required."
+msgstr ""
+"Le mode graphique de sécurité a été désactivé. Pour appliquer cette "
+"modification, un re-démarrage du système est nécessaire."
+
+#: qml/DisablePage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid ""
+"If you are confident that you have resolved the graphics issues you can "
+"permanently enable the default graphics mode again."
+msgstr ""
+"Si vous avez confiance dans votre résolution des problèmes graphiques, vous "
+"pouvez activer de nouveau et de façon permanente le mode graphique par "
+"défaut."
+
+#: qml/DisablePage.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable Default Graphics Mode"
+msgstr "Activer le mode graphique par défaut"
+
+#: qml/DisablePage.qml:65
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Safe Graphics Mode"
+msgstr "Conserver le mode graphique de sécurité"
+
+#: qml/ErrorPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Unexpected Error"
+msgstr "Erreur inattendue"
+
+#: qml/InfoPage.qml:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"If regular graphics mode is not working on this system you'll need to figure "
+"out what's wrong or ask for help in a support forum for this operating "
+"system. Whatever is wrong needs to be resolved on the installed system "
+"before it can perform properly."
+msgstr ""
+"Si le mode graphique normal ne fonctionne pas sur ce système, vous pourriez "
+"trouver ce qui ne va pas ou demander de l'aide dans un forum d'entre-aide "
+"pour ce système d'exploitation. Tout ce qui est incorrect a besoin d'être "
+"corrigé sur un système installé avant que cela ne fonctionne correctement. "
+
+#: qml/main.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Safe Graphics Mode"
+msgstr "Mode graphique de sécurité"
+
+#: qml/main.qml:20
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This system is running in Safe Graphics Mode (also known as 'nomodeset'). "
+"While this mode often works even when the graphics driver is malfunctioning "
+"it is also greatly impairing the ability of your graphics card to work as "
+"intended because the system likely is using a very basic fallback graphics "
+"driver."
+msgstr ""
+"Le système fonctionne dans un mode graphique de secours (connu aussi sous le "
+"terme « nomodset »). Bien que ce mode fonctionne souvent même avec un pilote "
+"graphique fonctionnant mal, il dégrade fortement les capacités de votre "
+"carte graphique pour son fonctionnement normal. La raison est que le système "
+"préfère utiliser un pilote graphique basique de secours."
+
+#: qml/main.qml:22
+#, kde-format
+msgctxt "@label"
+msgid ""
+"It is advised to deal with whatever is wrong with your system that you felt "
+"the need to use Safe Graphics Mode. This likely means either upgrading the "
+"Linux kernel or installing a graphics driver that correctly supports the "
+"graphics card. If you are unsure what to do it's probably best to ask in a "
+"support forum for this operating system."
+msgstr ""
+"Il est recommandé de prendre en compte tout ce qui fonctionne mal dans votre "
+"système pour que vous ayez besoin de basculer dans le mode graphique de "
+"secours. Ceci signifie principalement que soit vous devez mettre à jour "
+"votre noyau Linux, soit que vous devez installer un pilote graphique prenant "
+"correctement en charge votre carte graphique. Si vous avez un doute sur quoi "
+"faire, le mieux est de demander de l'aide sur le forum d'entre-aide pour ce "
+"système d'exploitation."
