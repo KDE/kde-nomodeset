@@ -56,7 +56,7 @@ msgstr "Non se atopou o ficheiro de configuración <filename>%1</filename>."
 msgctxt "@info:status"
 msgid "Deleting the configuration file <filename>%1</filename> failed."
 msgstr ""
-"Non se puido eliminar o ficheiro de configuración <filename>%1</filename>."
+"Non foi posíbel eliminar o ficheiro de configuración <filename>%1</filename>."
 
 #: polkit/helper.cpp:33
 #, kde-format
@@ -70,7 +70,7 @@ msgstr ""
 msgctxt "@info:status"
 msgid "Updating the bootloader configuration failed - exit code: %1"
 msgstr ""
-"Non se puido actualizar a configuración do xestor de arranque: código de "
+"Non foi posíbel actualizar a configuración do xestor de arranque: código de "
 "saída %1"
 
 #: qml/BusyPage.qml:10
