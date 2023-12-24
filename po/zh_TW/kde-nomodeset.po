@@ -4,37 +4,39 @@
 # This file is distributed under the same license as the kde-nomodeset package.
 # Automatically generated, 2022.
 #
+# SPDX-FileCopyrightText: 2023 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kde-nomodeset\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:39+0000\n"
-"PO-Revision-Date: 2021-02-09 03:14+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-24 05:20+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #: main.cpp:68
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown error code: %1"
-msgstr ""
+msgstr "未知的錯誤代碼：%1"
 
 #: main.cpp:182
 #, kde-format
 msgctxt "@title"
 msgid "Safe Graphics Mode Warning"
-msgstr ""
+msgstr "安全圖形模式警告"
 
 #: main.cpp:183
 #, kde-format
 msgctxt "@title systray tooltip title"
 msgid "Safe Graphics Mode"
-msgstr ""
+msgstr "安全圖形模式"
 
 #: main.cpp:185
 #, kde-format
@@ -42,43 +44,43 @@ msgctxt "@info:tooltip"
 msgid ""
 "The system currently runs in Safe Graphics Mode - graphics card and display "
 "performance may be impaired"
-msgstr ""
+msgstr "系統目前以安全圖形模式執行 - 顯示卡與圖形效能可能受影響"
 
 #: polkit/helper.cpp:20
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Configuration file <filename>%1</filename> not found."
-msgstr ""
+msgstr "找不到設定檔案 <filename>%1</filename>。"
 
 #: polkit/helper.cpp:25
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Deleting the configuration file <filename>%1</filename> failed."
-msgstr ""
+msgstr "刪除設定檔案 <filename>%1</filename> 時失敗。"
 
 #: polkit/helper.cpp:33
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating the bootloader configuration timed out."
-msgstr ""
+msgstr "更新開啟啟動器設定時逾時。"
 
 #: polkit/helper.cpp:39
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating the bootloader configuration failed - exit code: %1"
-msgstr ""
+msgstr "更新開啟啟動器設定時失敗 - 結束碼：%1"
 
 #: qml/BusyPage.qml:10
 #, kde-format
 msgctxt "@title"
 msgid "Disabling..."
-msgstr ""
+msgstr "正在停用…"
 
 #: qml/DisabledPage.qml:10
 #, kde-format
 msgctxt "@title"
 msgid "Restart Required"
-msgstr ""
+msgstr "需要重新啟動"
 
 #: qml/DisabledPage.qml:24
 #, kde-kuit-format
@@ -86,7 +88,7 @@ msgctxt "@label"
 msgid ""
 "Safe Graphics Mode has been disabled. To apply this change a system restart "
 "is required."
-msgstr ""
+msgstr "安全圖形模式已被停用。要套用這個變更系統需要重新啟動。"
 
 #: qml/DisablePage.qml:42
 #, kde-format
@@ -94,25 +96,25 @@ msgctxt "@label"
 msgid ""
 "If you are confident that you have resolved the graphics issues you can "
 "permanently enable the default graphics mode again."
-msgstr ""
+msgstr "您如果確定已經解決了圖形問題，可以重新永久啟用預設的圖形模式。"
 
 #: qml/DisablePage.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Enable Default Graphics Mode"
-msgstr ""
+msgstr "啟用預設圖形模式"
 
 #: qml/DisablePage.qml:65
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep Safe Graphics Mode"
-msgstr ""
+msgstr "保留安全圖形模式"
 
 #: qml/ErrorPage.qml:10
 #, kde-format
 msgctxt "@title"
 msgid "Unexpected Error"
-msgstr ""
+msgstr "未預期的錯誤"
 
 #: qml/InfoPage.qml:42
 #, kde-kuit-format
@@ -123,12 +125,15 @@ msgid ""
 "system. Whatever is wrong needs to be resolved on the installed system "
 "before it can perform properly."
 msgstr ""
+"如果這個系統上平常的圖形模式無法正常運作，您會需要找出問題在哪裡，或是在這個"
+"作業系統的支援論壇裡找人幫忙。不管實際的問題是什麼，它都必須先被解決這個系統"
+"才能正常運作。"
 
 #: qml/main.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Safe Graphics Mode"
-msgstr ""
+msgstr "安全圖形模式"
 
 #: qml/main.qml:20
 #, kde-format
@@ -140,6 +145,9 @@ msgid ""
 "intended because the system likely is using a very basic fallback graphics "
 "driver."
 msgstr ""
+"這個系統目前以安全圖形模式（又稱 'nomodeset'）執行中。雖然這個模式在圖形驅動"
+"程式出問題的時候還是可以運作，但在這個模式下您的顯示卡也幾乎完全無法正常運"
+"作，因為系統很可能正在使用一個非常基本的備用圖形驅動程式。"
 
 #: qml/main.qml:22
 #, kde-format
@@ -151,3 +159,6 @@ msgid ""
 "graphics card. If you are unsure what to do it's probably best to ask in a "
 "support forum for this operating system."
 msgstr ""
+"建議您妥善處理您的系統讓您覺得需要使用安全圖形模式的問題。這通常代表更新 "
+"Linux 內核或是安裝正確支援您的顯示卡的圖形驅動程式。如果您不確定要怎麽做，可"
+"能可以去這個作業系統的支援論壇裡問問看。"
