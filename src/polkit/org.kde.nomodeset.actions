@@ -34,6 +34,7 @@ Name[tr]=Güvenli Grafik Kipi
 Name[uk]=Безпечний графічний режим
 Name[x-test]=xxSafe Graphics Modexx
 Name[zh_CN]=安全图形模式
+Name[zh_TW]=安全圖形模式
 
 [org.kde.nomodeset.disable]
 Policy=auth_admin
@@ -69,6 +70,7 @@ Name[tr]=Güvenli Grafik Kipini Devre Dışı Bırak
 Name[uk]=Вимкнути безпечний графічний режим
 Name[x-test]=xxDisable Safe Graphics Modexx
 Name[zh_CN]=禁用安全图形模式
+Name[zh_TW]=停用安全圖形模式
 Description=Disable Safe Graphics Mode
 Description[ca]=Inhabilita el mode de gràfics segurs
 Description[ca@valencia]=Inhabilita el mode de gràfics segurs
@@ -100,6 +102,7 @@ Description[tr]=Güvenli Grafik Kipini Devre Dışı Bırak
 Description[uk]=Вимкнути безпечний графічний режим
 Description[x-test]=xxDisable Safe Graphics Modexx
 Description[zh_CN]=禁用安全图形模式
+Description[zh_TW]=停用安全圖形模式
 
 [org.kde.nomodeset.grubcfgexists]
 Policy=yes
@@ -134,6 +137,7 @@ Name[tr]=Güvenli Grafik Kipi Önyükleme Yapılandırması
 Name[uk]=Налаштування завантажувача на безпечний графічний режим
 Name[x-test]=xxSafe Graphics Mode Bootloader Configurationxx
 Name[zh_CN]=安全图形模式引导器配置
+Name[zh_TW]=安全圖形模式開機啟動器設定
 Description=Safe Graphics Mode Bootloader Configuration
 Description[ca]=Configuració del gestor d'arrencada del mode de gràfics segurs
 Description[ca@valencia]=Configureu el gestor d'arrancada del mode de gràfics segurs
@@ -164,3 +168,4 @@ Description[tr]=Güvenli Grafik Kipi Önyükleme Yapılandırması
 Description[uk]=Налаштування завантажувача на безпечний графічний режим
 Description[x-test]=xxSafe Graphics Mode Bootloader Configurationxx
 Description[zh_CN]=安全图形模式引导器配置
+Description[zh_TW]=安全圖形模式開機啟動器設定
