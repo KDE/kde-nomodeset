@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kde-nomodeset\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:39+0000\n"
-"PO-Revision-Date: 2024-02-26 21:30+0100\n"
+"PO-Revision-Date: 2024-03-24 10:34+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -22,13 +22,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown error code: %1"
-msgstr ""
+msgstr "Nekonata erarkodo: %1"
 
 #: main.cpp:182
 #, kde-format
 msgctxt "@title"
 msgid "Safe Graphics Mode Warning"
-msgstr ""
+msgstr "Averto pri Sekura Grafika Reĝimo"
 
 #: main.cpp:183
 #, kde-format
@@ -48,31 +48,31 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Configuration file <filename>%1</filename> not found."
-msgstr ""
+msgstr "Agorda dosiero <filename>%1</filename> ne trovita."
 
 #: polkit/helper.cpp:25
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Deleting the configuration file <filename>%1</filename> failed."
-msgstr ""
+msgstr "Forigo de la agorda dosiero <filename>%1</filename> malsukcesis."
 
 #: polkit/helper.cpp:33
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating the bootloader configuration timed out."
-msgstr ""
+msgstr "Ĝisdatigo de la agordo de ekŝargilo eksvalidiĝis."
 
 #: polkit/helper.cpp:39
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating the bootloader configuration failed - exit code: %1"
-msgstr ""
+msgstr "Ĝisdatigo de la agordo de ekŝargilo malsukcesis - elira kodo: %1"
 
 #: qml/BusyPage.qml:10
 #, kde-format
 msgctxt "@title"
 msgid "Disabling..."
-msgstr ""
+msgstr "Malebligante..."
 
 #: qml/DisabledPage.qml:10
 #, kde-format
@@ -100,19 +100,19 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Enable Default Graphics Mode"
-msgstr ""
+msgstr "Ebligi Defaŭltan Grafikan Reĝimon"
 
 #: qml/DisablePage.qml:65
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep Safe Graphics Mode"
-msgstr ""
+msgstr "Konservi Sekuran Grafikan Reĝimon"
 
 #: qml/ErrorPage.qml:10
 #, kde-format
 msgctxt "@title"
 msgid "Unexpected Error"
-msgstr ""
+msgstr "Neatendita Eraro"
 
 #: qml/InfoPage.qml:42
 #, kde-kuit-format
