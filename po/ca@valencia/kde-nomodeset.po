@@ -81,7 +81,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Disabling..."
-msgstr "S'està desactivant..."
+msgstr "S'està desactivant…"
 
 #: qml/DisabledPage.qml:10
 #, kde-format
