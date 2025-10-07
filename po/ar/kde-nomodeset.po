@@ -1,0 +1,169 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the kde-nomodeset package.
+# SPDX-FileCopyrightText: 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kde-nomodeset\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-11-05 12:39+0000\n"
+"PO-Revision-Date: 2025-10-06 18:55+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error code: %1"
+msgstr "رمز خطأ غير معروف: %1"
+
+#: main.cpp:182
+#, kde-format
+msgctxt "@title"
+msgid "Safe Graphics Mode Warning"
+msgstr "تحذير من وضع الرسوميات الآمن"
+
+#: main.cpp:183
+#, kde-format
+msgctxt "@title systray tooltip title"
+msgid "Safe Graphics Mode"
+msgstr "وضع الرسوميات الآمن"
+
+#: main.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The system currently runs in Safe Graphics Mode - graphics card and display "
+"performance may be impaired"
+msgstr ""
+"يعمل الحاسوب حاليًا في وضع الرسوميات الآمن، قد تتأثر بطاقة الرسوميات وأداء "
+"الشاشة"
+
+#: polkit/helper.cpp:20
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Configuration file <filename>%1</filename> not found."
+msgstr "لم يعثر على ملف تشكيلة <filename>%1</filename>."
+
+#: polkit/helper.cpp:25
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Deleting the configuration file <filename>%1</filename> failed."
+msgstr "فشل حذف ملف التشكيلة <filename>%1</filename>."
+
+#: polkit/helper.cpp:33
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration timed out."
+msgstr "انتهى وقت تحديث تشكيلة محمل الإقلاع."
+
+#: polkit/helper.cpp:39
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating the bootloader configuration failed - exit code: %1"
+msgstr "فشل تحديث تشكيلة محمل الإقلاع - رمز الخروج: %1"
+
+#: qml/BusyPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Disabling..."
+msgstr "يعطل..."
+
+#: qml/DisabledPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Restart Required"
+msgstr "إعادة تشغيل ضرورية"
+
+#: qml/DisabledPage.qml:24
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"Safe Graphics Mode has been disabled. To apply this change a system restart "
+"is required."
+msgstr ""
+"وضع الرسوميات الآمن فُعل تعطيله. لتطبيق هذا التغيير، تلزم إعادة تشغيل للحاسوب."
+
+#: qml/DisablePage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid ""
+"If you are confident that you have resolved the graphics issues you can "
+"permanently enable the default graphics mode again."
+msgstr ""
+"إذا كنت واثقًا من إصلاح مشكلات الرسوميات، يمكنك تفعيل وضع الرسوميات المبدئي "
+"بشكل دائم مرة أخرى."
+
+#: qml/DisablePage.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable Default Graphics Mode"
+msgstr "فعل وضع الرسوميات المبدئي"
+
+#: qml/DisablePage.qml:65
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Safe Graphics Mode"
+msgstr "احتفظ بوضع الرسوميات الآمن"
+
+#: qml/ErrorPage.qml:10
+#, kde-format
+msgctxt "@title"
+msgid "Unexpected Error"
+msgstr "خطأ غير متوقع"
+
+#: qml/InfoPage.qml:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"If regular graphics mode is not working on this system you'll need to figure "
+"out what's wrong or ask for help in a support forum for this operating "
+"system. Whatever is wrong needs to be resolved on the installed system "
+"before it can perform properly."
+msgstr ""
+"إذا لم يعمل وضع الرسوميات العادي على هذا الحاسوب، فستحتاج إلى اكتشاف الخطأ "
+"أو طلب المساعدة في منتدى دعم لنظام التشغيل هذا. يجب إصلاح أي خطأ في النظام "
+"المُثبَّت قبل أن يعمل بشكل صحيح."
+
+#: qml/main.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Safe Graphics Mode"
+msgstr "وضع الرسوميات الآمن"
+
+#: qml/main.qml:20
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This system is running in Safe Graphics Mode (also known as 'nomodeset'). "
+"While this mode often works even when the graphics driver is malfunctioning "
+"it is also greatly impairing the ability of your graphics card to work as "
+"intended because the system likely is using a very basic fallback graphics "
+"driver."
+msgstr ""
+"يعمل هذا الحاسوب في وضع الرسوميات الآمن (المعروف أيضًا باسم 'nomodeset'). "
+"بينما يعمل هذا الوضع غالبًا حتى عند تعطل مشغل الرسوميات، فإنه يعيق بشكل كبير "
+"قدرة بطاقة الرسوميات على العمل على النحو المنشود لأن النظام يستخدم على "
+"الأرجح مشغل رسوميات احتياطي أساسي للغاية."
+
+#: qml/main.qml:22
+#, kde-format
+msgctxt "@label"
+msgid ""
+"It is advised to deal with whatever is wrong with your system that you felt "
+"the need to use Safe Graphics Mode. This likely means either upgrading the "
+"Linux kernel or installing a graphics driver that correctly supports the "
+"graphics card. If you are unsure what to do it's probably best to ask in a "
+"support forum for this operating system."
+msgstr ""
+"يُنصح بمعالجة أي خطأ في حاسوبك شعرت بسببه بالحاجة إلى استخدام وضع الرسوميات "
+"الآمن. هذا يعني على الأرجح إما ترقية نواة Linux أو تثبيت مشغل رسوميات يدعم "
+"بطاقة الرسوميات بشكل صحيح. إذا لم تكن متأكدًا مما يجب عليك فعله، فربما يكون "
+"الأفضل أن تسأل في منتدى دعم لنظام التشغيل هذا."
