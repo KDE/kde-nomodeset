@@ -74,7 +74,7 @@ msgstr ""
 msgctxt "@info:status"
 msgid "Updating the bootloader configuration failed - exit code: %1"
 msgstr ""
-"No s'ha pogut actualitzar la configuració del gestor d'arrancada. Codi "
+"Ha fallat mentre s'actualitzava la configuració del gestor d'arrancada. Codi "
 "d'error: %1"
 
 #: qml/BusyPage.qml:10
