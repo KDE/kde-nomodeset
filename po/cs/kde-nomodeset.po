@@ -1,21 +1,22 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2026 This file is copyright:
 # This file is distributed under the same license as the kde-nomodeset package.
 # Vit Pelcak <vit@pelcak.org>, 2021.
+# SPDX-FileCopyrightText: 2026 Libor Filípek <libor.filipek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kde-nomodeset\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 09:01+0000\n"
-"PO-Revision-Date: 2021-08-05 12:46+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-07-19 11:03+0200\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 21.04.3\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: main.cpp:68
 #, kde-format
@@ -42,6 +43,8 @@ msgid ""
 "The system currently runs in Safe Graphics Mode - graphics card and display "
 "performance may be impaired"
 msgstr ""
+"Systém v současné době běží v bezpečném grafickém režimu – výkon grafické "
+"karty a displeje může být omezen"
 
 #: polkit/helper.cpp:20
 #, kde-kuit-format
@@ -59,13 +62,13 @@ msgstr "Smazání souboru nastavení <filename>%1</filename> selhalo."
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating the bootloader configuration timed out."
-msgstr ""
+msgstr "Došlo k vypršení časového limitu při aktualizaci konfigurace zavaděče."
 
 #: polkit/helper.cpp:39
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating the bootloader configuration failed - exit code: %1"
-msgstr ""
+msgstr "Aktualizace konfigurace zavaděče se nezdařila – kód ukončení: %1"
 
 #: qml/BusyPage.qml:10
 #, kde-format
@@ -86,6 +89,8 @@ msgid ""
 "Safe Graphics Mode has been disabled. To apply this change a system restart "
 "is required."
 msgstr ""
+"Bezpečný grafický režim byl deaktivován. K uplatnění této změny je nutné "
+"restartovat systém."
 
 #: qml/DisablePage.qml:42
 #, kde-format
@@ -94,6 +99,8 @@ msgid ""
 "If you are confident that you have resolved the graphics issues you can "
 "permanently enable the default graphics mode again."
 msgstr ""
+"Pokud jste si jisti, že jste problémy s grafikou vyřešili, můžete výchozí "
+"grafický režim opět trvale zapnout."
 
 #: qml/DisablePage.qml:57
 #, kde-format
@@ -122,6 +129,10 @@ msgid ""
 "system. Whatever is wrong needs to be resolved on the installed system "
 "before it can perform properly."
 msgstr ""
+"Pokud na tomto systému nefunguje běžný grafický režim, budete muset zjistit, "
+"v čem je problém, nebo požádat o pomoc na fóru podpory pro tento operační "
+"systém. Ať už je příčinou cokoli, je nutné tento problém na nainstalovaném "
+"systému vyřešit, aby systém mohl správně fungovat."
 
 #: qml/main.qml:19
 #, kde-format
@@ -139,6 +150,11 @@ msgid ""
 "intended because the system likely is using a very basic fallback graphics "
 "driver."
 msgstr ""
+"Tento systém běží v bezpečném grafickém režimu (známém také jako "
+"'nomodeset'). Ačkoli tento režim často funguje i v případě poruchy "
+"grafického ovladače, výrazně omezuje schopnost grafické karty fungovat tak, "
+"jak má, protože systém pravděpodobně používá velmi základní náhradní "
+"grafický ovladač."
 
 #: qml/main.qml:22
 #, kde-format
@@ -150,3 +166,8 @@ msgid ""
 "graphics card. If you are unsure what to do it's probably best to ask in a "
 "support forum for this operating system."
 msgstr ""
+"Doporučujeme vyřešit problém, kvůli kterému jste byli nuceni použít bezpečný "
+"grafický režim. Pravděpodobně to znamená buď aktualizovat jádro Linuxu, nebo "
+"nainstalovat grafický ovladač, který správně podporuje vaši grafickou kartu. "
+"Pokud si nejste jisti, jak postupovat, nejspíš bude nejlepší zeptat se na "
+"fóru podpory pro tento operační systém."
